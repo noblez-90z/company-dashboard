@@ -1,0 +1,32 @@
+.section{
+    border: none;
+    margin-left: 150px;
+}
+.section img{
+    border: none;
+    width: 500px;
+    height: 300px;
+    margin-left: 80px;
+}
+.payment li{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+}
+.payment li a{
+    text-decoration: none;
+    color: #333;
+
+}
+.payment img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: fill;
+    border: none;
+}
